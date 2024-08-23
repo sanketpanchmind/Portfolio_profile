@@ -1,0 +1,152 @@
+#header{
+    background-color: #2e2e35 !important;
+    color: #fff !important;
+}
+#latest-news ::-webkit-scrollbar {
+    width: 5px;
+    background-color: #e4aa48;
+    border-radius: 50px;
+  }
+.navbar .nav-item .nav-link{
+    color: #fff;
+}
+.text-main{
+    color: #e4aa48;
+}
+ul li {
+    position: relative;
+    padding: 15px 0px;
+}
+.nav-link{
+    color: #fff;
+    position: relative;
+    /* display: inline-block; */
+}
+.nav-item{
+    padding: 0px 20px;
+}
+.nav-link::after{
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    /* display: block; */
+    content: "";
+    background-color: #e4aa48;
+    transition: .3s linear;
+}
+.nav-link:hover::after{
+    width: 100%;
+    left: 0;
+    background-color: #e4aa48;
+
+}
+
+.contact-btn{
+    background-color: transparent !important;
+    color: #e4aa48;
+    border: 2px solid #e4aa48;
+    border-radius: 0 !important;
+}
+.carousel-control-prev{
+    position: absolute;
+    left: 83%;
+}
+.carousel-control-prev,.carousel-control-next{
+    position: absolute;
+    top: 400px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 2px solid #e4aa48;
+}
+.fa-solid{
+    color: #e4aa48;
+}
+
+.learn-more a{
+    position: relative;
+    text-decoration: none;
+    color: #e4aa48;
+}
+.learn-more a::after{
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    content: "";
+    height: 2px;
+    background: #e4aa48;
+    width: 0;
+    transition: .3s linear;
+}
+.learn-more a:hover::after{
+    width: 100%;
+    left: 0;
+}
+
+#services{
+    background-color: #34343b;
+    color: #fff;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+#services .card .card-body{
+    background-color: #2e2e35;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#services .card-data{
+    color: #e4aa48;
+}
+
+#portfolio{
+    background-color: #2e2e35 !important;
+    color: #fff;
+    padding-top: 120px;
+    padding-bottom: 120px
+}
+.nav-tabs{
+    border: transparent;
+}
+
+#latest-news{
+    background-color: #34343b;
+    color: #fff;
+}
+
+.upcoming-news{
+    max-height: 80% !important;
+    overflow-y: scroll;
+}
+
+#latest-news .card{
+    background-color: #34343b;
+    border: none;
+    box-shadow: 10px 10px 10px 10px #2e2e35;
+}
+.new-img{
+    width: 200px;
+}
+
+#contact{
+    background-color: #2e2e35;
+    color: #fff;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    border-bottom: 2px solid #e4aa48;
+}
+#contact .card{
+    background-color: #34343b;
+}
+#footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #34343b;
+    color: #fff;
+}
