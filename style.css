@@ -1,59 +1,89 @@
-#header{
+#header {
     background-color: #2e2e35 !important;
-    color: #fff !important;
 }
+
 #latest-news ::-webkit-scrollbar {
     width: 5px;
     background-color: #e4aa48;
     border-radius: 50px;
-  }
-.navbar .nav-item .nav-link{
-    color: #fff;
 }
-.text-main{
+
+.text-main {
     color: #e4aa48;
 }
+
 ul li {
     position: relative;
     padding: 15px 0px;
 }
-.nav-link{
-    color: #fff;
-    position: relative;
-    /* display: inline-block; */
-}
-.nav-item{
+
+.nav-item {
     padding: 0px 20px;
 }
-.nav-link::after{
+
+.nav-link,
+.nav-link.active {
+    background-color: transparent;
+    color: #fff !important;
+  }
+ul li a {
+    position: relative;
+    display: inline-block;
+    transform: perspective(10px) translateZ(0);
+    transition-duration: 0.3s;
+}
+
+ul li a::before {
+    content: '';
     position: absolute;
-    left: 0%;
-    bottom: 0;
-    width: 0;
-    height: 2px;
-    /* display: block; */
-    content: "";
-    background-color: #e4aa48;
-    transition: .3s linear;
-}
-.nav-link:hover::after{
-    width: 100%;
+    z-index: -1;
+    top: 90%;
     left: 0;
+    right: 0;
+    bottom: 0;
+    width: 0%;
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0% 50%;
+    transition: 0.3s ease-out;
     background-color: #e4aa48;
-
+    color: #fff;
+}
+ul li a:hover::before{
+    width: 100%;
+    top: 0%;
+    color: #fff;
+    border-radius: 10px !important;
+    transition: 0.3s ease-in-out;
 }
 
-.contact-btn{
+/* using background props */
+/* .nav-link {
+    background-image: linear-gradient(#e4aa48 0 0);
+    background-size: 0;
+    background-repeat: no-repeat;
+    transition: .4s;
+  }
+  .nav-link:hover {
+    background-size: 100%;
+  } */
+
+
+
+
+.contact-btn {
     background-color: transparent !important;
     color: #e4aa48;
     border: 2px solid #e4aa48;
     border-radius: 0 !important;
 }
-.carousel-control-prev{
+
+.carousel-control-prev {
     position: absolute;
     left: 83%;
 }
-.carousel-control-prev,.carousel-control-next{
+
+.carousel-control-prev,
+.carousel-control-next {
     position: absolute;
     top: 400px;
     height: 100px;
@@ -61,16 +91,18 @@ ul li {
     border-radius: 50px;
     border: 2px solid #e4aa48;
 }
-.fa-solid{
+
+.fa-solid {
     color: #e4aa48;
 }
 
-.learn-more a{
+.learn-more a {
     position: relative;
     text-decoration: none;
     color: #e4aa48;
 }
-.learn-more a::after{
+
+.learn-more a::after {
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -80,18 +112,20 @@ ul li {
     width: 0;
     transition: .3s linear;
 }
-.learn-more a:hover::after{
+
+.learn-more a:hover::after {
     width: 100%;
     left: 0;
 }
 
-#services{
+#services {
     background-color: #34343b;
     color: #fff;
     padding-top: 120px;
     padding-bottom: 120px;
 }
-#services .card .card-body{
+
+#services .card .card-body {
     background-color: #2e2e35;
     color: #fff;
     text-align: center;
@@ -101,50 +135,54 @@ ul li {
     justify-content: center;
 }
 
-#services .card-data{
+#services .card-data {
     color: #e4aa48;
 }
 
-#portfolio{
+#portfolio {
     background-color: #2e2e35 !important;
     color: #fff;
     padding-top: 120px;
     padding-bottom: 120px
 }
-.nav-tabs{
+
+.nav-tabs {
     border: transparent;
 }
 
-#latest-news{
+#latest-news {
     background-color: #34343b;
     color: #fff;
 }
 
-.upcoming-news{
+.upcoming-news {
     max-height: 80% !important;
     overflow-y: scroll;
 }
 
-#latest-news .card{
+#latest-news .card {
     background-color: #34343b;
     border: none;
     box-shadow: 10px 10px 10px 10px #2e2e35;
 }
-.new-img{
+
+.new-img {
     width: 200px;
 }
 
-#contact{
+#contact {
     background-color: #2e2e35;
     color: #fff;
     padding-top: 120px;
     padding-bottom: 120px;
     border-bottom: 2px solid #e4aa48;
 }
-#contact .card{
+
+#contact .card {
     background-color: #34343b;
 }
-#footer{
+
+#footer {
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #34343b;
