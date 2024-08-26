@@ -1,3 +1,9 @@
+body{
+    /* font-family: "Libre Baskerville", serif !important; */
+    font-family: "EB Garamond", serif;
+}
+
+
 #header {
     background-color: #2e2e35 !important;
 }
@@ -85,13 +91,15 @@ ul li a:hover::before{
 .carousel-control-prev,
 .carousel-control-next {
     position: absolute;
-    top: 400px;
+    top: 260px;
     height: 100px;
     width: 100px;
     border-radius: 50px;
     border: 2px solid #e4aa48;
 }
-
+.carousel .carousel-item{
+    color: #fff !important;
+}
 .fa-solid {
     color: #e4aa48;
 }
@@ -125,18 +133,11 @@ ul li a:hover::before{
     padding-bottom: 120px;
 }
 
-#services .card .card-body {
-    background-color: #2e2e35;
-    color: #fff;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#services .card-data {
-    color: #e4aa48;
+#services .development img{
+    background-image: url('./assets/web-development-3d-illustration_604638-1953-removebg-preview.png');
+    background-position: 50% 72%;
+    height: 100%;
+    width: 100%;
 }
 
 #portfolio {
@@ -187,4 +188,20 @@ ul li a:hover::before{
     padding-bottom: 20px;
     background-color: #34343b;
     color: #fff;
+}
+
+
+@media only screen and (max-width: 479px){
+    .carousel-control-prev {
+        position: absolute;
+        left: 0%;
+    }
+    .carousel-control-prev, .carousel-control-next {
+        position: absolute !important;
+        top: 150px !important;
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        border: 2px solid #e4aa48;
+    }
 }
