@@ -129,6 +129,7 @@ ul li a:hover::before{
     width: 100%;
     left: 0;
 }
+#portfolio,
 #aboutme,
 #services {
     background-color: #34343b;
@@ -142,8 +143,31 @@ ul li a:hover::before{
     color: #000 !important;
 }
 
-
-
+.xd-logo{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 150px;
+    animation: updown 5s linear infinite;
+}
+.figma-img{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 150px !important;
+    animation: updown 10s linear infinite;
+}
+@keyframes updown{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(40px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
 #services .development img{
     background-image: url('./assets/web-development-3d-illustration_604638-1953-removebg-preview.png');
     background-position: 50% 72%;
@@ -193,7 +217,9 @@ ul li a:hover::before{
 #contact .card {
     background-color: #34343b;
 }
-
+#contact .card:hover{
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important
+}
 #footer {
     padding-top: 20px;
     padding-bottom: 20px;
