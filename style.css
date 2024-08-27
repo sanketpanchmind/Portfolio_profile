@@ -17,6 +17,10 @@ body{
 .text-main {
     color: #e4aa48;
 }
+.btn-main {
+    background-color: #e4aa48 !important;
+    color: #fff !important;
+}
 
 ul li {
     position: relative;
@@ -133,6 +137,12 @@ ul li a:hover::before{
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
+#aboutme .modal {
+    color: #000 !important;
+}
+
+
 
 #services .development img{
     background-image: url('./assets/web-development-3d-illustration_604638-1953-removebg-preview.png');
