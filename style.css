@@ -137,6 +137,16 @@ ul li a:hover::before{
     color: #fff;
     padding-top: 120px;
     padding-bottom: 120px;
+    position: relative;
+}
+
+#aboutme .cubes{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 5%;
+    background-color: transparent;
+    border: 1px solid #e4aa48;
 }
 
 #aboutme .modal {
