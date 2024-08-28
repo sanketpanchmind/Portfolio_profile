@@ -132,21 +132,17 @@ ul li a:hover::before{
 #portfolio,
 #aboutme,
 #services {
+    /* background-image: url('https://img.freepik.com/free-vector/modern-three-dimensional-spheres-background_79603-1450.jpg?ga=GA1.1.988846312.1721976594&semt=ais_hybrid');
+    background-repeat: no-repeat;
+    background-size: cover; */
     background-color: #34343b;
+    /* background-color: #34343b; */
     border-bottom: 1px solid #e4aa48;
     color: #fff;
     padding-top: 120px;
     padding-bottom: 120px;
     position: relative;
-}
-
-#aboutme .cubes{
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 5%;
-    background-color: transparent;
-    border: 1px solid #e4aa48;
+    overflow: hidden;
 }
 
 #aboutme .modal {
@@ -218,6 +214,7 @@ ul li a:hover::before{
 
 #contact {
     background-color: #2e2e35;
+    /* background-color: #2e2e35; */
     color: #fff;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -225,10 +222,12 @@ ul li a:hover::before{
 }
 
 #contact .card {
-    background-color: #34343b;
+    background-color: #0d0d0d24;
+    transition: 0.5s ease-in-out;
 }
 #contact .card:hover{
-    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 58%) !important;
+    transition: 0.5s ease-in-out;
 }
 #footer {
     padding-top: 20px;
