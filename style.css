@@ -5,7 +5,8 @@ body{
 
 
 #header {
-    background-color: #2e2e35 !important;
+    /* background-color: #2e2e35 !important; */
+    background-color: #000 !important;
 }
 
 #latest-news ::-webkit-scrollbar {
@@ -129,13 +130,14 @@ ul li a:hover::before{
     width: 100%;
     left: 0;
 }
-#portfolio,
+
 #aboutme,
-#services {
+#services,
+#contact {
     /* background-image: url('https://img.freepik.com/free-vector/modern-three-dimensional-spheres-background_79603-1450.jpg?ga=GA1.1.988846312.1721976594&semt=ais_hybrid');
     background-repeat: no-repeat;
     background-size: cover; */
-    background-color: #34343b;
+    /* background-color: #34343b; */
     /* background-color: #34343b; */
     border-bottom: 1px solid #e4aa48;
     color: #fff;
@@ -145,10 +147,57 @@ ul li a:hover::before{
     overflow: hidden;
 }
 
+#aboutme{
+    background-color: #131313 !important;
+    /* background-image: url('./assets/background-img-for-section.jpg');
+    background-size: cover;
+    background-position: right; */
+}
+#rightshape_bg{
+    background-image: url('./assets/rightshape-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    border-top-right-radius: 20%;
+}
+#aboutme .animated_sq_topright_img{
+    position: absolute;
+    top: 5%;
+    animation: squareanimation 10s linear infinite;
+}
+#aboutme .animated_sq_bottomright_img{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    animation: squareanimation 10s linear infinite;
+}
 #aboutme .modal {
     color: #000 !important;
 }
 
+#services .right-shape-bg{
+    position: absolute;
+    top: 0;
+    right: 0;
+   
+}
+#services .animated_sq_topright_img{
+    position: absolute;
+    top: 5%;
+    animation: squareanimation 10s linear infinite;
+}
+
+#services .animated_sq_bottomright_img{
+    position: absolute;
+    right: 5%;
+    bottom: 0%;
+    animation: squareanimation 10s linear infinite;
+}
+#services{
+    background-color: #000 !important;
+    background-size: cover;
+    background-position: left;
+}
 .xd-logo{
     position: absolute;
     left: 0;
@@ -212,13 +261,27 @@ ul li a:hover::before{
     width: 200px;
 }
 
+#contact .animated_sq_topright_img{
+    position: absolute;
+    top: 5%;
+    animation: squareanimation 10s linear infinite;
+}
+#contact .animated_sq_bottomright_img{
+    position: absolute;
+    right: 5%;
+    bottom: 0%;
+    animation: squareanimation 10s linear infinite;
+}
 #contact {
-    background-color: #2e2e35;
+    background-color: #131313 !important;
     /* background-color: #2e2e35; */
     color: #fff;
     padding-top: 120px;
     padding-bottom: 120px;
     border-bottom: 2px solid #e4aa48;
+    /* background-image: url('./assets/background-img-for-section.jpg'); */
+    background-size: cover;
+    background-position: right;
 }
 
 #contact .card {
@@ -229,14 +292,31 @@ ul li a:hover::before{
     box-shadow: 0 1rem 3rem rgb(0 0 0 / 58%) !important;
     transition: 0.5s ease-in-out;
 }
+.irregular-shape-bg-img{
+    height: 100%;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 0;
+    left: -13%;
+    background: transparent;
+    opacity: 0.3;
+}
+
 #footer {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #34343b;
+    background-color: #000;
     color: #fff;
 }
 
-
+@keyframes squareanimation{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
 @media only screen and (max-width: 479px){
     .carousel-control-prev {
         position: absolute;
@@ -249,5 +329,15 @@ ul li a:hover::before{
         width: 50px;
         border-radius: 50px;
         border: 2px solid #e4aa48;
+    }
+
+    .irregular-shape-bg-img {
+        height: 100%;
+        transform: rotate(90deg);
+        position: absolute;
+        top: 0;
+        left: -63%;
+        background: transparent;
+        opacity: 0.3;
     }
 }
