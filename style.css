@@ -136,7 +136,7 @@ ul li a:hover::before{
     width: 100%;
     left: 0;
 }
-
+#skillexperience,
 #aboutme,
 #services,
 #contact {
@@ -253,6 +253,10 @@ ul li a:hover::before{
     width: 100%;
 }
 
+
+.title_section{
+    margin-bottom: 50px;
+}
 #skillexperience{
     background-color: #131313;
     color: #fff;
@@ -477,5 +481,9 @@ ul li a:hover::before{
         left: -63%;
         background: transparent;
         opacity: 0.3;
+    }
+
+    #skillexperience img.languages {
+        width: 65px !important;
     }
 }
