@@ -3,6 +3,12 @@ body{
     font-family: "EB Garamond", serif;
 }
 
+.navbar{
+    background-color: #2e2e35;
+    position: sticky;
+    top: 0%;
+    z-index: 9999999 !important;
+}
 
 #header {
     /* background-color: #2e2e35 !important; */
@@ -147,11 +153,28 @@ ul li a:hover::before{
     overflow: hidden;
 }
 
+#aboutme .modal{
+    background-color: #13131300;
+    color: #fff;
+}
+#aboutme .modal-content{
+    background-color: #131313;
+    color: #fff;
+}
+#aboutme h4{
+    text-align: justify;
+}
+#aboutme .title{
+    margin-bottom: 50px;
+}
 #aboutme{
     background-color: #131313 !important;
     /* background-image: url('./assets/background-img-for-section.jpg');
     background-size: cover;
     background-position: right; */
+}
+#aboutme .modal-dialog .modal-body ul li{
+    padding: 0;
 }
 #rightshape_bg{
     background-image: url('./assets/rightshape-bg.png');

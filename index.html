@@ -28,47 +28,49 @@
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
         rel="stylesheet">
 
+        <!-- AOS Animation -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>Document</title>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg shadow-lg">
+        <a class="navbar-brand" href="#">
+            <img src="https://palun-jekyll.tortoizthemes.com/assets/img/logo/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link " href="#">
+                        Projects
+                    </a>
+                </li>
+                <!-- <li class="nav-item dropdown">
+                            <a class="nav-link " href="#">
+                                Blog
+                            </a>
+                        </li> -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link ">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div class="container-fluid" id="header">
-        <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#">
-                <img src="https://palun-jekyll.tortoizthemes.com/assets/img/logo/logo.png" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link " href="#">
-                            Projects
-                        </a>
-                    </li>
-                    <!-- <li class="nav-item dropdown">
-                                <a class="nav-link " href="#">
-                                    Blog
-                                </a>
-                            </li> -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link ">
-                            Contact
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
         <div class="row">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -76,8 +78,8 @@
                         <div class="row">
                             <div class="col-sm-3 text-center d-flex align-items-center">
                                 <div>
-                                    <h1>Jack Harper</h1>
-                                    <h6 class="text-main">UI Developer</h6>
+                                    <h1 data-aos="fade-up" data-aos-delay="300">Sanket Panchmind</h1>
+                                    <h6 class="text-main" data-aos="fade-up" data-aos-delay="400">UI Designer</h6>
                                     <!-- <button class="btn contact-btn">Contact Me</button> -->
                                 </div>
                             </div>
@@ -88,11 +90,9 @@
                             </div>
                             <div class="col-sm-4 d-flex align-items-center" id="intro">
                                 <div>
-                                    <p>Introduction</p>
-                                    <h2>
-                                        UI/UX Designer.
-                                    </h2>
-                                    <p>
+                                    <p data-aos="fade-up" data-aos-delay="300">Introduction</p>
+                                    <h2 data-aos="fade-up" data-aos-delay="400">UI Designer.</h2>
+                                    <p data-aos="fade-up" data-aos-delay="500">
                                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex veniam unde
                                         deserunt nesciunt quasi asperiores, harum voluptatibus excepturi possimus
                                         fuga
@@ -110,8 +110,9 @@
                         <div class="row">
                             <div class="col-sm-3 text-center d-flex align-items-center">
                                 <div>
-                                    <h1>Sanket Panchmind</h1>
-                                    <button class="btn contact-btn">Contact Me</button>
+                                    <h1 data-aos="fade-up" data-aos-delay="300">Sanket Panchmind</h1>
+                                    <h6 class="text-main" data-aos="fade-up" data-aos-delay="400">UI Developer</h6>
+                                    <!-- <button class="btn contact-btn">Contact Me</button> -->
                                 </div>
                             </div>
                             <div class="col-sm">
@@ -120,11 +121,9 @@
                             </div>
                             <div class="col-sm-4 d-flex align-items-center">
                                 <div>
-                                    <p>Introduction</p>
-                                    <h2>
-                                        UI Developer
-                                    </h2>
-                                    <p>
+                                    <p data-aos="fade-up" data-aos-delay="300">Introduction</p>
+                                    <h2 data-aos="fade-up" data-aos-delay="400"> UI Developer</h2>
+                                    <p data-aos="fade-up" data-aos-delay="500">
                                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex veniam unde
                                         deserunt nesciunt quasi asperiores, harum voluptatibus excepturi possimus
                                         fuga
@@ -158,15 +157,15 @@
     </div>
     <div class="container-fluid" id="aboutme">
         <img src="./assets/ls-graphics.png" alt="" class="img-fluid animated_sq_topright_img">
-        <div class="text-center">
-            <h2>About ME</h2>
+        <div class="text-center title">
+            <h2 data-aos="fade-up" data-aos-delay="300">About ME</h2>
         </div>
-        <div class="row align-items-center">
+        <div class="row align-items-center gx-5">
             <div class="col-sm-6" id="rightshape_bg">
                 <img src="./assets/about-us-img.png" alt="" class="img-fluid">
             </div>
             <div class="col-sm-6">
-                <h4>
+                <h4 data-aos="fade-up" data-aos-delay="300">
                     It's not about what I can do, but what you can do with my help. I can help your company grow large.
                     I am currently a <b class="text-main"><i>front-end developer</i></b> and extending my skills on <b
                         class="text-main"><i>full-stack web development</i></b>.
@@ -174,14 +173,15 @@
                 <ul class="list-unstyled">
                     <li>
                         <div class="d-flex gap-2" type="button" class="btn btn-primary" data-bs-toggle="modal"
-                            data-bs-target="#needforweb">
+                            data-bs-target="#needforweb" data-aos="fade-up"
+                            data-aos-anchor-placement="top-bottom" data-aos-delay="500">
                             <h6><i class='fas fa-hand-point-right' style='font-size:24px'></i></h6>
                             <span>Why your company needs a website?</span>
                         </div>
                     </li>
                     <div class="modal fade" id="needforweb" tabindex="-1" aria-labelledby="exampleModalLabel"
                         aria-hidden="true">
-                        <div class="modal-dialog">
+                        <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <h1 class="modal-title fs-5" id="exampleModalLabel">Forbes</h1>
@@ -189,29 +189,42 @@
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    Without a website, people may question your legitimacy as a business. Having
-                                    a website is an opportunity to make a great first impression. Showcasing
-                                    your brand to your prospective customers is one of the most important things
-                                    that you can do
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <div class="d-flex gap-2">
+                                                <span>&#10148;</span>
+                                                <p> Without a website, people may question your legitimacy as a business. Having
+                                                    a website is an opportunity to make a great first impression.
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="d-flex gap-2">
+                                                <span>&#10148;</span>
+                                                <p>Showcasing your brand to your prospective customers is one of the most important things
+                                                    that you can do.
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    
                                 </div>
-                                <div class="modal-footer">
-                                    <!-- <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Close</button> -->
+                                <!-- <div class="modal-footer">
                                     <button type="button" class="btn btn-main" data-bs-dismiss="modal">ok</button>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
                     <li>
                         <div class="d-flex gap-2" type="button" class="btn btn-primary" data-bs-toggle="modal"
-                            data-bs-target="#helpyourcompanygrow">
+                            data-bs-target="#helpyourcompanygrow" data-aos="fade-up" data-aos-delay="800">
                             <h6><i class='fas fa-hand-point-right' style='font-size:24px'></i></h6>
                             <span>How a developer can help your company grow?</span>
                         </div>
                     </li>
                     <div class="modal fade" id="helpyourcompanygrow" tabindex="-1" aria-labelledby="exampleModalLabel"
                         aria-hidden="true">
-                        <div class="modal-dialog">
+                        <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <h1 class="modal-title fs-5" id="exampleModalLabel">How I can help you</h1>
@@ -219,17 +232,31 @@
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    Software development can improve the client's experiences, bring more
-                                    feature-rich and innovative products to market, and make setups more safe,
-                                    productive, and efficient. It helps them distinguish from competitors and
-                                    become more competitive
-
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <div class="d-flex gap-2">
+                                                <span>&#10148;</span>
+                                                <p>
+                                                    Software development can improve the client's experiences, bring more
+                                                    feature-rich and innovative products to market, and make setups more safe,
+                                                    productive, and efficient.
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="d-flex gap-2">
+                                                <span>&#10148;</span>
+                                                <p>
+                                                    It helps them distinguish from competitors and
+                                                    become more competitive
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
                                 </div>
-                                <div class="modal-footer">
-                                    <!-- <button type="button" class="btn btn-secondary"
-                                                data-bs-dismiss="modal">Close</button> -->
+                                <!-- <div class="modal-footer">
                                     <button type="button" class="btn btn-main" data-bs-dismiss="modal">Close</button>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -243,7 +270,7 @@
         <img src="./assets/ls-graphics.png" alt="" class="img-fluid animated_sq_topright_img">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12" data-aos="fade-up" data-aos-delay="300">
                     <h2 class="text-center mb-0">Services</h2>
                     <h4 class="text-center">What Am I Great At</h4>
                     <!-- <p class="text-center">
@@ -265,7 +292,7 @@
 
 
                 </div>
-                <div class="col-sm-5">
+                <div class="col-sm-5" data-aos="fade-up" data-aos-delay="500">
                     <h2>UI Design</h2>
                     <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores facilis velit provident
@@ -278,7 +305,7 @@
                     </p>
                 </div>
 
-                <div class="col-sm-6 order-2 order-lg-0">
+                <div class="col-sm-6 order-2 order-lg-0" data-aos="fade-up" data-aos-delay="800">
                     <h2>UI Development</h2>
                     <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores facilis velit provident
@@ -439,13 +466,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <p>CONTACT US</p>
-                    <h2>Ways To Connect Me</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia totam iusto hic!</p>
+                    <p data-aos="fade-up" data-aos-delay="300">CONTACT US</p>
+                    <h2 data-aos="fade-up" data-aos-delay="400">Ways To Connect Me</h2>
+                    <p data-aos="fade-up" data-aos-delay="500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia totam iusto hic!</p>
                 </div>
             </div>
             <div class="row g-3 mb-4">
-                <div class="col-sm-6">
+                <div class="col-sm-6" data-aos="fade-up" data-aos-delay="600">
                     <a href="mailto:sanket.panchmind1@gmail.com" class="text-decoration-none">
                         <div class="card border-0 rounded-0">
                             <div class="card-body">
@@ -457,7 +484,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6" data-aos="fade-up" data-aos-delay="600">
                     <a href="tel:8669264767" class="text-decoration-none">
                         <div class="card border-0 rounded-0">
                             <div class="card-body">
@@ -469,7 +496,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6" data-aos="fade-up" data-aos-delay="700">
                     <a href="#" class="text-decoration-none">
                         <div class="card border-0 rounded-0">
                             <div class="card-body">
@@ -481,7 +508,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6" data-aos="fade-up" data-aos-delay="700">
                     <a href="#" class="text-decoration-none">
                         <div class="card border-0 rounded-0">
                             <div class="card-body">
@@ -508,6 +535,11 @@
 <img src="./assets/iloveimg-converted/bootstrap.jpg" alt="">
 
 
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 
 </html>
