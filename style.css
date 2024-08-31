@@ -1,76 +1,76 @@
-body{
-    /* font-family: "Libre Baskerville", serif !important; */
-    font-family: "EB Garamond", serif;
+body {
+  /* font-family: "Libre Baskerville", serif !important; */
+  font-family: "EB Garamond", serif;
 }
 
-.navbar{
-    background-color: #2e2e35;
-    position: sticky;
-    top: 0%;
-    z-index: 9999999 !important;
+.navbar {
+  background-color: #2e2e35;
+  position: sticky;
+  top: 0%;
+  z-index: 9999999 !important;
 }
 
 #header {
-    /* background-color: #2e2e35 !important; */
-    background-color: #000 !important;
+  /* background-color: #2e2e35 !important; */
+  background-color: #000 !important;
 }
 
 #latest-news ::-webkit-scrollbar {
-    width: 5px;
-    background-color: #ffbd39;
-    border-radius: 50px;
+  width: 5px;
+  background-color: #ffbd39;
+  border-radius: 50px;
 }
 
 .text-main {
-    color: #ffbd39;
+  color: #ffbd39;
 }
 .btn-main {
-    background-color: #ffbd39 !important;
-    color: #fff !important;
+  background-color: #ffbd39 !important;
+  color: #fff !important;
 }
 
 ul li {
-    position: relative;
-    padding: 15px 0px;
+  position: relative;
+  padding: 15px 0px;
 }
 
 .nav-item {
-    padding: 0px 20px;
+  padding: 0px 20px;
 }
 
 .nav-link,
 .nav-link.active {
-    background-color: transparent;
-    color: #fff !important;
-  }
+  background-color: transparent;
+  color: #fff !important;
+}
 ul li a {
-    position: relative;
-    display: inline-block;
-    transform: perspective(10px) translateZ(0);
-    transition-duration: 0.3s;
+  position: relative;
+  display: inline-block;
+  transform: perspective(10px) translateZ(0);
+  transition-duration: 0.3s;
 }
 
 ul li a::before {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    top: 90%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 0%;
-    -webkit-transform-origin: 0 50%;
-    transform-origin: 0% 50%;
-    transition: 0.3s ease-out;
-    background-color: #ffbd39;
-    color: #fff;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 90%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 0%;
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0% 50%;
+  transition: 0.3s ease-out;
+  background-color: #ffbd39;
+  color: #fff;
 }
-ul li a:hover::before{
-    width: 100%;
-    top: 0%;
-    color: #fff;
-    border-radius: 10px !important;
-    transition: 0.3s ease-in-out;
+ul li a:hover::before {
+  width: 100%;
+  top: 0%;
+  color: #fff;
+  border-radius: 10px !important;
+  transition: 0.3s ease-in-out;
 }
 
 /* using background props */
@@ -84,234 +84,243 @@ ul li a:hover::before{
     background-size: 100%;
   } */
 
-
-
-
 .contact-btn {
-    background-color: transparent !important;
-    color: #ffbd39;
-    border: 2px solid #ffbd39;
-    border-radius: 0 !important;
+  background-color: transparent !important;
+  color: #ffbd39;
+  border: 2px solid #ffbd39;
+  border-radius: 0 !important;
 }
 
 .carousel-control-prev {
-    position: absolute;
-    left: 83%;
+  position: absolute;
+  left: 83%;
 }
 
 .carousel-control-prev,
 .carousel-control-next {
-    position: absolute;
-    top: 260px;
-    height: 100px;
-    width: 100px;
-    border-radius: 50px;
-    border: 2px solid #ffbd39;
+  position: absolute;
+  top: 260px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border: 2px solid #ffbd39;
 }
-.carousel .carousel-item{
-    color: #fff !important;
+.carousel .carousel-item {
+  color: #fff !important;
 }
 .fa-solid {
-    color: #ffbd39;
+  color: #ffbd39;
 }
 
 .learn-more a {
-    position: relative;
-    text-decoration: none;
-    color: #ffbd39;
+  position: relative;
+  text-decoration: none;
+  color: #ffbd39;
 }
 
 .learn-more a::after {
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    content: "";
-    height: 2px;
-    background: #ffbd39;
-    width: 0;
-    transition: .3s linear;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  content: "";
+  height: 2px;
+  background: #ffbd39;
+  width: 0;
+  transition: 0.3s linear;
 }
 
 .learn-more a:hover::after {
-    width: 100%;
-    left: 0;
+  width: 100%;
+  left: 0;
 }
 #skillexperience,
 #aboutme,
 #services,
 #contact {
-    /* background-image: url('https://img.freepik.com/free-vector/modern-three-dimensional-spheres-background_79603-1450.jpg?ga=GA1.1.988846312.1721976594&semt=ais_hybrid');
+  /* background-image: url('https://img.freepik.com/free-vector/modern-three-dimensional-spheres-background_79603-1450.jpg?ga=GA1.1.988846312.1721976594&semt=ais_hybrid');
     background-repeat: no-repeat;
     background-size: cover; */
-    /* background-color: #34343b; */
-    /* background-color: #34343b; */
-    border-bottom: 1px solid #ffbd39;
-    color: #fff;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    position: relative;
-    overflow: hidden;
+  /* background-color: #34343b; */
+  /* background-color: #34343b; */
+  border-bottom: 1px solid #ffbd39;
+  color: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  position: relative;
+  overflow: hidden;
 }
 
-#aboutme .modal{
-    background-color: #13131300;
-    color: #fff;
+#aboutme .modal {
+  background-color: #13131300;
+  color: #fff;
 }
-#aboutme .modal-content{
-    background-color: #131313;
-    color: #fff;
+#aboutme .modal-content {
+  background-color: #131313;
+  color: #fff;
 }
-#aboutme h4{
-    text-align: justify;
+#aboutme h4 {
+  text-align: justify;
 }
-#aboutme .title{
-    margin-bottom: 50px;
+#aboutme .title {
+  margin-bottom: 50px;
 }
-#aboutme{
-    background-color: #131313 !important;
-    /* background-image: url('./assets/background-img-for-section.jpg');
+#aboutme {
+  background-color: #131313 !important;
+  /* background-image: url('./assets/background-img-for-section.jpg');
     background-size: cover;
     background-position: right; */
 }
-#aboutme .modal-dialog .modal-body ul li{
-    padding: 0;
+#aboutme .modal-dialog .modal-body ul li {
+  padding: 0;
 }
-#rightshape_bg{
-    background-image: url('./assets/rightshape-bg.png');
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: cover;
-    border-top-right-radius: 20%;
+#rightshape_bg {
+  background-image: url("./assets/rightshape-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  border-top-right-radius: 20%;
 }
-#aboutme .animated_sq_topright_img{
-    position: absolute;
-    top: 5%;
-    animation: squareanimation 10s linear infinite;
+#aboutme .animated_sq_topright_img {
+  position: absolute;
+  top: 5%;
+  animation: squareanimation 10s linear infinite;
 }
-#aboutme .animated_sq_bottomright_img{
-    position: absolute;
-    right: 5%;
-    bottom: 5%;
-    animation: squareanimation 10s linear infinite;
+#aboutme .animated_sq_bottomright_img {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  animation: squareanimation 10s linear infinite;
 }
 #aboutme .modal {
-    color: #000 !important;
+  color: #000 !important;
 }
 
-#services .right-shape-bg{
-    position: absolute;
-    top: 0;
-    right: 0;
-   
+#services .right-shape-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
-#services .animated_sq_topright_img{
-    position: absolute;
-    top: 5%;
-    animation: squareanimation 10s linear infinite;
-}
-
-#services .animated_sq_bottomright_img{
-    position: absolute;
-    right: 5%;
-    bottom: 0%;
-    animation: squareanimation 10s linear infinite;
-}
-#services{
-    background-color: #000 !important;
-    background-size: cover;
-    background-position: left;
-}
-.xd-logo{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 150px;
-    animation: updown 5s linear infinite;
-}
-.figma-img{
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 150px !important;
-    animation: updown 10s linear infinite;
-}
-@keyframes updown{
-    0%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(40px);
-    }
-    100%{
-        transform: translateY(0px);
-    }
-}
-#services .development img{
-    background-image: url('./assets/web-development-3d-illustration_604638-1953-removebg-preview.png');
-    background-position: 50% 72%;
-    height: 100%;
-    width: 100%;
+#services .animated_sq_topright_img {
+  position: absolute;
+  top: 5%;
+  animation: squareanimation 10s linear infinite;
 }
 
+#services .animated_sq_bottomright_img {
+  position: absolute;
+  right: 5%;
+  bottom: 0%;
+  animation: squareanimation 10s linear infinite;
+}
+#services {
+  background-color: #000 !important;
+  background-size: cover;
+  background-position: left;
+}
+.xd-logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 150px;
+  animation: updown 5s linear infinite;
+}
+.figma-img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 150px !important;
+  animation: updown 10s linear infinite;
+}
+@keyframes updown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(40px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+#services .development img {
+  background-image: url("./assets/web-development-3d-illustration_604638-1953-removebg-preview.png");
+  background-position: 50% 72%;
+  height: 100%;
+  width: 100%;
+}
 
-.title_section{
-    margin-bottom: 50px;
+.title_section {
+  margin-bottom: 50px;
 }
-#skillexperience{
-    background-color: #131313;
-    color: #fff;
+#skillexperience {
+  background-color: #131313;
+  color: #fff;
 }
-#skillexperience ul li .card.card-body{
-    background-color: #131313;
+#skillexperience .animated_sq_topright_img {
+  position: absolute;
+  top: 5%;
+  animation: squareanimation 10s linear infinite;
 }
-#skillexperience ul li .card.card-body ul li{
-    padding: 0;
+#skillexperience .animated_sq_bottomright_img {
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+  animation: squareanimation 10s linear infinite;
 }
-#skillexperience .progress-bar{
-    background-color: #ffbd39;
+
+#skillexperience .card .card-header,
+#skillexperience .card .card-body {
+  background-color: #131313;
+  border-radius: 0 !important;
+  border: 1px solid #131313;
+}
+#skillexperience .card .card-body ul li {
+  padding: 10px;
+}
+#skillexperience .progress-bar {
+  background-color: #ffbd39;
 }
 /* language logos bouncing animation */
-#skillexperience .html{
-    animation: bouncing 10s linear infinite;
+#skillexperience .html {
+  animation: bouncing 10s linear infinite;
 }
-#skillexperience .css{
-    animation: bouncing 8s linear infinite;
+#skillexperience .css {
+  animation: bouncing 8s linear infinite;
 }
-#skillexperience .js{
-    animation: bouncing 6s linear infinite;
+#skillexperience .js {
+  animation: bouncing 6s linear infinite;
 }
-#skillexperience .bootstrap{
-    animation: bouncing 5s linear infinite;
+#skillexperience .bootstrap {
+  animation: bouncing 5s linear infinite;
 }
-#skillexperience .cSharp{
-    animation: bouncing 4s linear infinite;
+#skillexperience .cSharp {
+  animation: bouncing 4s linear infinite;
 }
-#skillexperience .sql{
-    animation: bouncing 7s linear infinite;
+#skillexperience .sql {
+  animation: bouncing 7s linear infinite;
 }
-#skillexperience .sqlserverdb{
-    animation: bouncing 9s linear infinite;
+#skillexperience .sqlserverdb {
+  animation: bouncing 9s linear infinite;
 }
-#skillexperience .sqlserver{
-    animation: bouncing 2s linear infinite;
+#skillexperience .sqlserver {
+  animation: bouncing 2s linear infinite;
 }
-@keyframes bouncing{
-    0%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(40px);
-    }
-    100%{
-        transform: translateY(0px);
-    }
+@keyframes bouncing {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(40px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 /* end of bouncing animation */
 
-
-#skillexperience img:hover{
-    -webkit-animation: jello-horizontal 0.9s both;
-    animation: jello-horizontal 0.9s both;
+#skillexperience img:hover {
+  -webkit-animation: jello-horizontal 0.9s both;
+  animation: jello-horizontal 0.9s both;
 }
 /* ----------------------------------------------
  * Generated by Animista on 2024-8-30 16:24:9
@@ -325,67 +334,66 @@ ul li a:hover::before{
  * animation jello-horizontal
  * ----------------------------------------
  */
- @-webkit-keyframes jello-horizontal {
-    0% {
-      -webkit-transform: scale3d(1, 1, 1);
-              transform: scale3d(1, 1, 1);
-    }
-    30% {
-      -webkit-transform: scale3d(1.25, 0.75, 1);
-              transform: scale3d(1.25, 0.75, 1);
-    }
-    40% {
-      -webkit-transform: scale3d(0.75, 1.25, 1);
-              transform: scale3d(0.75, 1.25, 1);
-    }
-    50% {
-      -webkit-transform: scale3d(1.15, 0.85, 1);
-              transform: scale3d(1.15, 0.85, 1);
-    }
-    65% {
-      -webkit-transform: scale3d(0.95, 1.05, 1);
-              transform: scale3d(0.95, 1.05, 1);
-    }
-    75% {
-      -webkit-transform: scale3d(1.05, 0.95, 1);
-              transform: scale3d(1.05, 0.95, 1);
-    }
-    100% {
-      -webkit-transform: scale3d(1, 1, 1);
-              transform: scale3d(1, 1, 1);
-    }
+@-webkit-keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
   }
-  @keyframes jello-horizontal {
-    0% {
-      -webkit-transform: scale3d(1, 1, 1);
-              transform: scale3d(1, 1, 1);
-    }
-    30% {
-      -webkit-transform: scale3d(1.25, 0.75, 1);
-              transform: scale3d(1.25, 0.75, 1);
-    }
-    40% {
-      -webkit-transform: scale3d(0.75, 1.25, 1);
-              transform: scale3d(0.75, 1.25, 1);
-    }
-    50% {
-      -webkit-transform: scale3d(1.15, 0.85, 1);
-              transform: scale3d(1.15, 0.85, 1);
-    }
-    65% {
-      -webkit-transform: scale3d(0.95, 1.05, 1);
-              transform: scale3d(0.95, 1.05, 1);
-    }
-    75% {
-      -webkit-transform: scale3d(1.05, 0.95, 1);
-              transform: scale3d(1.05, 0.95, 1);
-    }
-    100% {
-      -webkit-transform: scale3d(1, 1, 1);
-              transform: scale3d(1, 1, 1);
-    }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
   }
-  
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
 
 /* #portfolio {
     background-color: #2e2e35 !important;
@@ -395,95 +403,102 @@ ul li a:hover::before{
 } */
 
 .nav-tabs {
-    border: transparent;
+  border: transparent;
 }
-
 
 .new-img {
-    width: 200px;
+  width: 200px;
 }
 
-#contact .animated_sq_topright_img{
-    position: absolute;
-    top: 5%;
-    animation: squareanimation 10s linear infinite;
+#contact .animated_sq_topright_img {
+  position: absolute;
+  top: 5%;
+  animation: squareanimation 10s linear infinite;
 }
-#contact .animated_sq_bottomright_img{
-    position: absolute;
-    right: 5%;
-    bottom: 0%;
-    animation: squareanimation 10s linear infinite;
+#contact .animated_sq_bottomright_img {
+  position: absolute;
+  right: 5%;
+  bottom: 0%;
+  animation: squareanimation 10s linear infinite;
 }
 #contact {
-    background-color: #131313 !important;
-    /* background-color: #2e2e35; */
-    color: #fff;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    border-bottom: 2px solid #ffbd39;
-    /* background-image: url('./assets/background-img-for-section.jpg'); */
-    background-size: cover;
-    background-position: right;
+  background-color: #131313 !important;
+  /* background-color: #2e2e35; */
+  color: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  border-bottom: 2px solid #ffbd39;
+  /* background-image: url('./assets/background-img-for-section.jpg'); */
+  background-size: cover;
+  background-position: right;
 }
 
 #contact .card {
-    background-color: #0d0d0d24;
-    transition: 0.5s ease-in-out;
+  background-color: #0d0d0d24;
+  transition: 0.5s ease-in-out;
 }
-#contact .card:hover{
-    box-shadow: 0 1rem 3rem rgb(0 0 0 / 58%) !important;
-    transition: 0.5s ease-in-out;
+#contact .card:hover {
+  box-shadow: 0 1rem 3rem rgb(0 0 0 / 58%) !important;
+  transition: 0.5s ease-in-out;
 }
-.irregular-shape-bg-img{
+.irregular-shape-bg-img {
+  height: 100%;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 0;
+  left: -13%;
+  background: transparent;
+  opacity: 0.3;
+}
+
+#footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+@keyframes squareanimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@media only screen and (max-width: 479px) {
+  .carousel-control-prev {
+    position: absolute;
+    left: 0%;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute !important;
+    top: 150px !important;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 2px solid #ffbd39;
+  }
+
+  .irregular-shape-bg-img {
     height: 100%;
     transform: rotate(90deg);
     position: absolute;
     top: 0;
-    left: -13%;
+    left: -63%;
     background: transparent;
     opacity: 0.3;
-}
+  }
 
-#footer {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: #000;
-    color: #fff;
-}
+  #skillexperience img.languages {
+    width: 65px !important;
+  }
 
-@keyframes squareanimation{
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
-}
-@media only screen and (max-width: 479px){
-    .carousel-control-prev {
-        position: absolute;
-        left: 0%;
-    }
-    .carousel-control-prev, .carousel-control-next {
-        position: absolute !important;
-        top: 150px !important;
-        height: 50px;
-        width: 50px;
-        border-radius: 50px;
-        border: 2px solid #ffbd39;
-    }
-
-    .irregular-shape-bg-img {
-        height: 100%;
-        transform: rotate(90deg);
-        position: absolute;
-        top: 0;
-        left: -63%;
-        background: transparent;
-        opacity: 0.3;
-    }
-
-    #skillexperience img.languages {
-        width: 65px !important;
-    }
+  #services .development img {
+    background-image: url("./assets/web-development-3d-illustration_604638-1953-removebg-preview.png");
+    background-position: 54% 36%;
+    height: 100%;
+    width: 100%;
+  }
 }
