@@ -9,7 +9,11 @@ body {
   top: 0%;
   z-index: 9999999 !important;
 }
-
+.navbar img{
+    width: 150px;
+    height: 60px;
+    object-fit: cover;
+}
 #header {
   /* background-color: #2e2e35 !important; */
   background-color: #000 !important;
