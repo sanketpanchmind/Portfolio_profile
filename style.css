@@ -177,12 +177,12 @@ ul li a:hover::before {
 #aboutme .modal-dialog .modal-body ul li {
   padding: 0;
 }
-#rightshape_bg {
+#leftshape_bg {
   background-image: url("./assets/rightshape-bg.png");
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
-  border-top-right-radius: 20%;
+  border-top-right-radius: 100%;
 }
 #aboutme .animated_sq_topright_img {
   position: absolute;
