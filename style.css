@@ -3,17 +3,20 @@ body {
   font-family: "EB Garamond", serif;
 }
 
+
 .navbar {
   background-color: #2e2e35;
   position: sticky;
   top: 0%;
   z-index: 9999999 !important;
 }
-.navbar img{
-    width: 150px;
-    height: 60px;
-    object-fit: cover;
+
+.navbar img {
+  width: 150px;
+  height: 60px;
+  object-fit: cover;
 }
+
 #header {
   /* background-color: #2e2e35 !important; */
   background-color: #000 !important;
@@ -28,11 +31,14 @@ body {
 .text-main {
   color: #ffbd39;
 }
+
 .btn-main {
   background-color: #ffbd39 !important;
   color: #fff !important;
 }
-
+p{
+  text-align: justify;
+}
 ul li {
   position: relative;
   padding: 15px 0px;
@@ -47,6 +53,7 @@ ul li {
   background-color: transparent;
   color: #fff !important;
 }
+
 ul li a {
   position: relative;
   display: inline-block;
@@ -69,6 +76,7 @@ ul li a::before {
   background-color: #ffbd39;
   color: #fff;
 }
+
 ul li a:hover::before {
   width: 100%;
   top: 0%;
@@ -109,9 +117,11 @@ ul li a:hover::before {
   border-radius: 50px;
   border: 2px solid #ffbd39;
 }
+
 .carousel .carousel-item {
   color: #fff !important;
 }
+
 .fa-solid {
   color: #ffbd39;
 }
@@ -137,6 +147,7 @@ ul li a:hover::before {
   width: 100%;
   left: 0;
 }
+
 #skillexperience,
 #aboutme,
 #services,
@@ -158,25 +169,31 @@ ul li a:hover::before {
   background-color: #13131300;
   color: #fff;
 }
+
 #aboutme .modal-content {
   background-color: #131313;
   color: #fff;
 }
+
 #aboutme h4 {
   text-align: justify;
 }
+
 #aboutme .title {
   margin-bottom: 50px;
 }
+
 #aboutme {
   background-color: #131313 !important;
   /* background-image: url('./assets/background-img-for-section.jpg');
     background-size: cover;
     background-position: right; */
 }
+
 #aboutme .modal-dialog .modal-body ul li {
   padding: 0;
 }
+
 #leftshape_bg {
   background-image: url("./assets/rightshape-bg.png");
   background-repeat: no-repeat;
@@ -184,17 +201,20 @@ ul li a:hover::before {
   background-size: cover;
   border-top-right-radius: 100%;
 }
+
 #aboutme .animated_sq_topright_img {
   position: absolute;
   top: 5%;
   animation: squareanimation 10s linear infinite;
 }
+
 #aboutme .animated_sq_bottomright_img {
   position: absolute;
   right: 5%;
   bottom: 5%;
   animation: squareanimation 10s linear infinite;
 }
+
 #aboutme .modal {
   color: #000 !important;
 }
@@ -204,6 +224,7 @@ ul li a:hover::before {
   top: 0;
   right: 0;
 }
+
 #services .animated_sq_topright_img {
   position: absolute;
   top: 5%;
@@ -216,11 +237,13 @@ ul li a:hover::before {
   bottom: 0%;
   animation: squareanimation 10s linear infinite;
 }
+
 #services {
   background-color: #000 !important;
   background-size: cover;
   background-position: left;
 }
+
 .xd-logo {
   position: absolute;
   left: 0;
@@ -228,6 +251,7 @@ ul li a:hover::before {
   width: 150px;
   animation: updown 5s linear infinite;
 }
+
 .figma-img {
   position: absolute;
   top: 0;
@@ -235,17 +259,21 @@ ul li a:hover::before {
   width: 150px !important;
   animation: updown 10s linear infinite;
 }
+
 @keyframes updown {
   0% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(40px);
   }
+
   100% {
     transform: translateY(0px);
   }
 }
+
 #services .development img {
   background-image: url("./assets/web-development-3d-illustration_604638-1953-removebg-preview.png");
   background-position: 50% 72%;
@@ -256,15 +284,18 @@ ul li a:hover::before {
 .title_section {
   margin-bottom: 50px;
 }
+
 #skillexperience {
   background-color: #131313;
   color: #fff;
 }
+
 #skillexperience .animated_sq_topright_img {
   position: absolute;
   top: 5%;
   animation: squareanimation 10s linear infinite;
 }
+
 #skillexperience .animated_sq_bottomright_img {
   position: absolute;
   bottom: 3%;
@@ -278,54 +309,69 @@ ul li a:hover::before {
   border-radius: 0 !important;
   border: 1px solid #131313;
 }
+
 #skillexperience .card .card-body ul li {
   padding: 10px;
 }
+
 #skillexperience .progress-bar {
   background-color: #ffbd39;
 }
+
 /* language logos bouncing animation */
 #skillexperience .html {
   animation: bouncing 10s linear infinite;
 }
+
 #skillexperience .css {
   animation: bouncing 8s linear infinite;
 }
+
 #skillexperience .js {
   animation: bouncing 6s linear infinite;
 }
+
 #skillexperience .bootstrap {
   animation: bouncing 5s linear infinite;
 }
+
 #skillexperience .cSharp {
   animation: bouncing 4s linear infinite;
 }
+
 #skillexperience .sql {
   animation: bouncing 7s linear infinite;
 }
+
 #skillexperience .sqlserverdb {
   animation: bouncing 9s linear infinite;
 }
+
 #skillexperience .sqlserver {
   animation: bouncing 2s linear infinite;
 }
+
 @keyframes bouncing {
   0% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(40px);
   }
+
   100% {
     transform: translateY(0px);
   }
 }
+
 /* end of bouncing animation */
 
 #skillexperience img:hover {
   -webkit-animation: jello-horizontal 0.9s both;
   animation: jello-horizontal 0.9s both;
 }
+
 /* ----------------------------------------------
  * Generated by Animista on 2024-8-30 16:24:9
  * Licensed under FreeBSD License.
@@ -343,56 +389,69 @@ ul li a:hover::before {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
   }
+
   30% {
     -webkit-transform: scale3d(1.25, 0.75, 1);
     transform: scale3d(1.25, 0.75, 1);
   }
+
   40% {
     -webkit-transform: scale3d(0.75, 1.25, 1);
     transform: scale3d(0.75, 1.25, 1);
   }
+
   50% {
     -webkit-transform: scale3d(1.15, 0.85, 1);
     transform: scale3d(1.15, 0.85, 1);
   }
+
   65% {
     -webkit-transform: scale3d(0.95, 1.05, 1);
     transform: scale3d(0.95, 1.05, 1);
   }
+
   75% {
     -webkit-transform: scale3d(1.05, 0.95, 1);
     transform: scale3d(1.05, 0.95, 1);
   }
+
   100% {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
   }
 }
+
 @keyframes jello-horizontal {
   0% {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
   }
+
   30% {
     -webkit-transform: scale3d(1.25, 0.75, 1);
     transform: scale3d(1.25, 0.75, 1);
   }
+
   40% {
     -webkit-transform: scale3d(0.75, 1.25, 1);
     transform: scale3d(0.75, 1.25, 1);
   }
+
   50% {
     -webkit-transform: scale3d(1.15, 0.85, 1);
     transform: scale3d(1.15, 0.85, 1);
   }
+
   65% {
     -webkit-transform: scale3d(0.95, 1.05, 1);
     transform: scale3d(0.95, 1.05, 1);
   }
+
   75% {
     -webkit-transform: scale3d(1.05, 0.95, 1);
     transform: scale3d(1.05, 0.95, 1);
   }
+
   100% {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
@@ -419,12 +478,14 @@ ul li a:hover::before {
   top: 5%;
   animation: squareanimation 10s linear infinite;
 }
+
 #contact .animated_sq_bottomright_img {
   position: absolute;
   right: 5%;
   bottom: 0%;
   animation: squareanimation 10s linear infinite;
 }
+
 #contact {
   background-color: #131313 !important;
   /* background-color: #2e2e35; */
@@ -441,10 +502,12 @@ ul li a:hover::before {
   background-color: #0d0d0d24;
   transition: 0.5s ease-in-out;
 }
+
 #contact .card:hover {
   box-shadow: 0 1rem 3rem rgb(0 0 0 / 58%) !important;
   transition: 0.5s ease-in-out;
 }
+
 .irregular-shape-bg-img {
   height: 100%;
   transform: rotate(90deg);
@@ -466,21 +529,43 @@ ul li a:hover::before {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
-@media only screen and (max-width: 479px) {
+
+@media (max-width: 479px) {
   .carousel-control-prev {
     position: absolute;
     left: 0%;
   }
+
   .carousel-control-prev,
   .carousel-control-next {
     position: absolute !important;
     top: 150px !important;
     height: 50px;
     width: 50px;
+    border-radius: 50px;
+    border: 2px solid #ffbd39;
+  }
+
+  .carousel-control-next {
+    position: absolute;
+    top: 260px !important;
+    right: 0 !important;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 2px solid #ffbd39;
+  }
+  .carousel-control-prev {
+    position: absolute;
+    top: 260px !important;
+    left: 0 !important;
+    height: 100px;
+    width: 100px;
     border-radius: 50px;
     border: 2px solid #ffbd39;
   }
@@ -504,5 +589,27 @@ ul li a:hover::before {
     background-position: 54% 36%;
     height: 100%;
     width: 100%;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 260px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    border: 2px solid #ffbd39;
+}
+  .carousel-control-prev {
+    position: absolute;
+    left: 0%;
+    top: 20%;
+  }
+  .carousel-control-next {
+    position: absolute;
+    right: 0%;
+    top: 20%;
   }
 }
