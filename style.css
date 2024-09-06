@@ -270,7 +270,6 @@ ul li a:hover::before {
 
 #services .development img {
   background-image: url("./assets/web-development-3d-illustration_604638-1953-removebg-preview.png");
-  background-position: 50% 72%;
   height: 100%;
   width: 100%;
 }
@@ -580,7 +579,7 @@ ul li a:hover::before {
 
   #services .development img {
     background-image: url("./assets/web-development-3d-illustration_604638-1953-removebg-preview.png");
-    background-position: 54% 36%;
+    background-position: 54% 44% !important;
     height: 100%;
     width: 100%;
   }
@@ -605,5 +604,14 @@ ul li a:hover::before {
     position: absolute;
     right: 0%;
     top: 20%;
+  }
+
+
+
+  #services .development img {
+    background-image: url("./assets/web-development-3d-illustration_604638-1953-removebg-preview.png") !important;
+    background-position: 31% 37% !important;
+    height: 100% !important;
+    width: 100% !important;
   }
 }
