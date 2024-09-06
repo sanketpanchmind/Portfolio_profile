@@ -22,12 +22,6 @@ body {
   background-color: #000 !important;
 }
 
-#latest-news ::-webkit-scrollbar {
-  width: 5px;
-  background-color: #ffbd39;
-  border-radius: 50px;
-}
-
 .text-main {
   color: #ffbd39;
 }
