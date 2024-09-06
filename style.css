@@ -270,6 +270,7 @@ ul li a:hover::before {
 
 #services .development img {
   background-image: url("./assets/web-development-3d-illustration_604638-1953-removebg-preview.png");
+  background-position: 54% 73% !important;
   height: 100%;
   width: 100%;
 }
