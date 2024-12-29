@@ -3,6 +3,12 @@ body {
   font-family: "EB Garamond", serif;
 }
 
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='coral' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler {
+  border: 2px solid coral;
+}
 
 .navbar {
   background-color: #2e2e35;
@@ -30,7 +36,7 @@ body {
   background-color: #ffbd39 !important;
   color: #fff !important;
 }
-p{
+p {
   text-align: justify;
 }
 ul li {
@@ -105,7 +111,7 @@ ul li a:hover::before {
 .carousel-control-prev,
 .carousel-control-next {
   position: absolute;
-  top: 260px;
+  top: 310px;
   height: 100px;
   width: 100px;
   border-radius: 50px;
@@ -270,7 +276,7 @@ ul li a:hover::before {
 
 #services .development img {
   background-image: url("./assets/web-development-3d-illustration_604638-1953-removebg-preview.png");
-  background-position: 54% 73% !important;
+  background-position: 424% 133% !important;
   height: 100%;
   width: 100%;
 }
@@ -586,16 +592,16 @@ ul li a:hover::before {
   }
 }
 
-
 @media (max-width: 576px) {
-  .carousel-control-prev, .carousel-control-next {
+  .carousel-control-prev,
+  .carousel-control-next {
     position: absolute;
     top: 260px;
     height: 40px;
     width: 40px;
     border-radius: 50px;
     border: 2px solid #ffbd39;
-}
+  }
   .carousel-control-prev {
     position: absolute;
     left: 0%;
@@ -606,8 +612,6 @@ ul li a:hover::before {
     right: 0%;
     top: 20%;
   }
-
-
 
   #services .development img {
     background-image: url("./assets/web-development-3d-illustration_604638-1953-removebg-preview.png") !important;
