@@ -28,6 +28,36 @@ body {
   background-color: #000 !important;
 }
 
+.frontend-highlights,
+.skill-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.focus-chip,
+.skill-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  border: 1px solid #ffbd39;
+  border-radius: 999px;
+  background: rgba(255, 189, 57, 0.08);
+  color: #ffe5a8;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.focus-chip:hover,
+.skill-badge:hover {
+  background: rgba(255, 189, 57, 0.18);
+  transform: translateY(-1px);
+  transition: all 0.3s ease;
+}
+
 .text-main {
   color: #ffbd39;
 }
@@ -314,6 +344,11 @@ ul li a:hover::before {
   padding: 10px;
 }
 
+#skillexperience .skill-badges {
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
 #skillexperience .progress-bar {
   background-color: #ffbd39;
 }
@@ -337,6 +372,23 @@ ul li a:hover::before {
 
 #skillexperience .cSharp {
   animation: bouncing 4s linear infinite;
+}
+
+.net-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+  border: 1px solid #ffbd39;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(255, 189, 57, 0.12), rgba(255, 255, 255, 0.04));
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  text-align: center;
+  padding: 8px;
 }
 
 #skillexperience .sql {
